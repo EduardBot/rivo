@@ -1,0 +1,67 @@
+/* font-family: 'Fanwood Text', serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rufina', serif; */
+@import url(../styles/reset.css);
+
+:root {
+    --color1: #C2EFD4;
+    --color2: #224F34;
+    --color3: #267D49;
+
+    --color_banner: var(--color1);
+    --color_green_dark: var(--color2);
+    --color_green_light: var(--color2);
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    font-size: 22px;
+    line-height: normal;
+}
+
+.wrapper {
+    max-width: 1387px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+/* header */
+
+.header {
+    background-color: var(--color_banner);
+    text-transform: uppercase;
+    padding: 64px 0 0 0;
+    color: var(--color_green_dark);
+    font-weight: 500;
+}
+.header__nav {
+    max-width: 493px;
+}
+.header__nav_list {
+    display: flex;
+    gap: 57px;
+}
+.group_wrap {
+    display: flex;
+    align-items: center;
+    gap: 59px;
+}
+.header__basket {
+    width: 30px;
+    height: 30px;
+}
+.header__basket_img {
+    width: 100%;
+}
+.header__login {
+    padding: 11px 41px;
+    border-radius: 3px;
+    border: 2px solid;
+    border-color: var(--color_green_dark);
+}
+/* header */
