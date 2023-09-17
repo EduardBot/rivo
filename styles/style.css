@@ -30,6 +30,22 @@ body {
     justify-content: space-between;
     align-items: center;
 }
+/* btns */
+.btn {
+    padding: 11px 41px;
+    border-radius: 3px;
+    text-transform: uppercase;
+    border: 2px solid;
+    border-color: var(--color_green_dark);
+}
+a.btn_active {
+    border: none;
+    background-color: var(--color_green_dark);
+    color: var(--color_banner);
+}
+
+/* btns */
+
 /* header */
 
 .header {
@@ -58,10 +74,15 @@ body {
 .header__basket_img {
     width: 100%;
 }
-.header__login {
-    padding: 11px 41px;
-    border-radius: 3px;
-    border: 2px solid;
-    border-color: var(--color_green_dark);
+/* down_header */
+.down_header {
+    padding: 128px 0 126px;
 }
+.header__hero_picture {
+    background-image: url(../img/hero_img/bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+/* down_header */
 /* header */
