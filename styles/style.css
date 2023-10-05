@@ -29,14 +29,14 @@ body {
     margin: 0 auto;
     padding: 0 10px;
 }
-.row {
+._row {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
 }
 /* btns */
-.btn {
+._btn {
     display: inline-block;
     font-size: 20px;
     font-weight: 500;
