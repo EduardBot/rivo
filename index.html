@@ -3,12 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Fanwood+Text&family=Poppins:wght@400;500;600&family=Roboto:wght@400;500;700&family=Rufina:wght@700&display=swap" rel="stylesheet">
     <!-- bootstrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>Rivo</title>
 </head>
 <body>
@@ -16,11 +16,11 @@
         <div class="wrapper">
             <div class="header__inner">
                 <div class="up__header">
-                    <div class="_row">
-                        <div class="header__logo">
+                    <div class="row">
+                        <div class="col-md-2 header__logo">
                             <img src="./img/rivo_logo.svg" alt="логотип" class="header__logo_img">
                         </div>
-                        <div class="header__nav">
+                        <div class="col-md-7 header__nav">
                             <ul class="header__nav_list">
                                 <li class="header__nav_item">
                                     <a class="header__nav_link" href="#!">home</a>
@@ -36,7 +36,7 @@
                                 </li>
                             </ul>
                         </div>
-                        <div class="group_wrap">
+                        <div class="col-md-3 group_wrap">
                             <div class="header__basket">
                                 <img class="header__basket_img" src="./img/icons/basket_icon/basket.svg" alt="корзина">
                             </div>
@@ -116,25 +116,60 @@
             </div>
         </section>
         <section class="our_prod">
-            <h2>our products</h2>
-            <ul class="categories">
-                <li class="categories_item"><a href="#!">sale</a></li>
-                <li class="categories_item"><a href="#!">hot</a></li>
-                <li class="categories_item"><a href="#!">new arrivals</a></li>
-                <li class="categories_item"><a href="#!">accessories</a></li>
-            </ul>
-            <div class="our_prod__card_wrapper">
-                <div class="our_prod__card">
-                    <figure>
-                        <img src="./img/our_prod/1.png" alt="1">
-                        <figcaption>
-                            <p>Spread Collar Shirt</p>
-                            <span>$48.99</span>
-                            <span class="line"></span>
-                            <span>5.0</span>
-                        </figcaption>
-                    </figure>
-                </div>
+            <div class="wrapper our_prod_flex">
+                <h2>Our products</h2>
+                <ul class="categories">
+                    <li class="categories_item"><a href="#!">sale</a></li>
+                    <li class="categories_item"><a href="#!">hot</a></li>
+                    <li class="categories_item"><a href="#!">new arrivals</a></li>
+                    <li class="categories_item"><a href="#!">accessories</a></li>
+                </ul>
+                <div class="our_prod__card_wrapper">
+                    <div class="our_prod__card">
+                        <figure>
+                            <img src="./img/our_prod/1.png" alt="1">
+                            <figcaption>
+                                <p>Spread Collar Shirt</p>
+                                <span>$48.99</span>
+                                <span class="line"></span>
+                                <span>5.0</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="our_prod__card">
+                        <figure>
+                            <img src="./img/our_prod/2.png" alt="1">
+                            <figcaption>
+                                <p>Spread Collar Shirt</p>
+                                <span>$48.99</span>
+                                <span class="line"></span>
+                                <span>5.0</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="our_prod__card">
+                        <figure>
+                            <img src="./img/our_prod/3.png" alt="1">
+                            <figcaption>
+                                <p>Spread Collar Shirt</p>
+                                <span>$48.99</span>
+                                <span class="line"></span>
+                                <span>5.0</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="our_prod__card">
+                        <figure>
+                            <img src="./img/our_prod/4.png" alt="1">
+                            <figcaption>
+                                <p>Spread Collar Shirt</p>
+                                <span>$48.99</span>
+                                <span class="line"></span>
+                                <span>5.0</span>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>    
             </div>
         </section>
     </main>
