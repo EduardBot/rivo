@@ -277,6 +277,11 @@ a.btn_active {
     padding: 0 121px 0 81px;
 }
 .banner_picture {
+    position: relative;
+    bottom: 25px;
+}
+.banner_picture img {
+    order: 10;
 }
 .banner_info {
     max-width: 589px;
@@ -317,6 +322,7 @@ a.btn_active {
     color: var(--color_green_dark);
     font-size: 16px;
     font-weight: 500;
+    margin: 0;
 }
 .banner_info .btn_active {
     padding: 22px 70px;
